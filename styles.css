@@ -1,0 +1,66 @@
+h1 {
+  font-family: Arial, "Helvetica, sans-serif";
+  font-size: 22px;
+  font-weight: 100;
+  text-align: center;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(7, 12, 7);
+}
+
+input {
+  width: 50%;
+  height: 5px;
+  padding: 20px;
+  font-size: 20px;
+  border: none;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(to right top, #360033, #0b8793);
+  font-family: Arial, "Helvetica, sans-serif";
+  color: rgb(249, 250, 249);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #4caf50;
+  color: rgb(10, 5, 5);
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: rgb(17, 7, 7);
+}
+
+div {
+  border: 1px solid gray;
+  padding: 8px;
+}
+
+p {
+  text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 3px;
+}
+
+a {
+  text-decoration: none;
+  color: #008cba;
+}
